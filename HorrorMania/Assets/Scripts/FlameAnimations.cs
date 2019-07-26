@@ -19,7 +19,7 @@ public class FlameAnimations : MonoBehaviour
 
     IEnumerator AnimateLight()
     {
-        Debug.Log("hello");
+
         LightMode = Random.Range(1, 4);
         if (LightMode == 1)
         {
